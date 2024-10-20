@@ -191,3 +191,17 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.game-start-screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('ghost-image.png');
+    background-size: 60%; /* 이미지 크기를 유지하면서 전체 표시 */
+    background-position: center;
+    background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
+    z-index: 9999;
+}
